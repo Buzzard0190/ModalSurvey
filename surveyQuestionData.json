@@ -1,0 +1,266 @@
+// JSON Document for questions
+
+var questions = [{
+	"Query" : "Creating the governance documents for an organization with multiple shareholders (Articles of incorporation/Organization, By Laws, Operating Agreements)",
+	"type" : "radio"
+},
+{
+	"Query" : "Held a non executive Board of Directors seat for a multi shareholder company",
+	"type" : "radio"
+},
+{
+	"Query" : "Experience in the Audit function ",
+	"type" : "radio"
+},
+{
+	"Query" : "Understanding of internal controls ",
+	"type" : "radio"
+},
+{
+	"Query" : "Regulatory, compliance and governmental reporting ",
+	"type" : "radio"
+},
+{
+	"Query" : "I have been the corporate executive signing an audited financial statement representation letter",
+	"type" : "boolChoice"
+},
+{
+	"Query" : "Corporate governance and Internal controls ",
+	"type" : "radio"
+},
+{
+	"Query" : "Administrative process reengineering efforts ",
+	"type" : "radio"
+},
+{
+	"Query" : "I am an Innovator and frequently used those skills to improve financial processes ",
+	"type" : "radio"
+},
+{
+	"Query" : "I have been a hands on supervisor of accounting processes (ie. AR, AP, Payroll, Account Reconciliations) ",
+	"type" : "radio"
+},
+{
+	"Query" : "Transaction Processing ",
+	"type" : "radio"
+},
+{
+	"Query" : "IT systems installations ",
+	"type" : "radio"
+},
+{
+	"Query" : "Preparing the financial reports for a company  ",
+	"type" : "radio"
+},
+{
+	"Query" : "The liason with our outside audit firm  ",
+	"type" : "radio"
+},
+{
+	"Query" : "Develop financial and operational statements that make the business transparent to management and the Board",
+	"type" : "radio"
+},
+{
+	"Query" : "Develop Key Performance Indicators or dashboards ",
+	"type" : "radio"
+},
+{
+	"Query" : "Regulatory, compliance and governmental reporting ",
+	"type" : "radio"
+},
+{
+	"Query" : "Responsible for tax/regulatory reporting",
+	"type" : "radio"
+},
+{
+	"Query" : "Leading the budget process  ",
+	"type" : "radio"
+},
+{
+	"Query" : "Leading the  strategic planning efforts  ",
+	"type" : "radio"
+},
+{
+	"Query" : "Leading  market studies for industries I have been in",
+	"type" : "radio"
+},
+{
+	"Query" : "Leading Financial Planning and Analysis department  ",
+	"type" : "radio"
+},
+{
+	"Query" : "My background on the business planning process ",
+	"type" : "radio"
+},
+{
+	"Query" : "Tools used to develop the  financial forecasts",
+	"type" : "radio"
+},
+{
+	"Query" : "Communicating the  forecasts to executive management and the  Board",
+	"type" : "radio"
+},
+{
+	"Query" : "Research and recommend forecasting software to be used by a company I worked for",
+	"type" : "radio"
+},
+{
+	"Query" : "Confidence in  leading the business planning process",
+	"type" : "radio"
+},
+{
+	"Query" : "Developing the capital needs for  companies I have worked for",
+	"type" : "radio"
+},
+{
+	"Query" : "Comfort analyzing capital projects ",
+	"type" : "radio"
+},
+{
+	"Query" : "Reviewing and approving capital projects  ",
+	"type" : "radio"
+},
+{
+	"Query" : "Calculating our cost of capital and explain it to executive management and the Board",
+	"type" : "radio"
+},
+{
+	"Query" : "Lead finance manager on a merger or acquisition",
+	"type" : "radio"
+},
+{
+	"Query" : "Background in cash forecasting",
+	"type" : "radio"
+},
+{
+	"Query" : "Involvement in the cash management process",
+	"type" : "radio"
+},
+{
+	"Query" : "Developing cash management processes for companies with poor cash management practices",
+	"type" : "radio"
+},
+{
+	"Query" : "Understanding of the the key principles of excellent cash management ",
+	"type" : "radio"
+},
+{
+	"Query" : "Leading  debt financings ",
+	"type" : "radio"
+},
+{
+	"Query" : "Leading equity financings ",
+	"type" : "radio"
+},
+{
+	"Query" : "Knowledge/Experience to negotiate a strong financing package ",
+	"type" : "radio"
+},
+{
+	"Query" : "Understanding  how companies should be capitalized (debt/equity)",
+	"type" : "radio"
+},
+{
+	"Query" : "Know the options for working capital financing ",
+	"type" : "radio"
+},
+{
+	"Query" : "Confidence negoitating financing terms for working capital ",
+	"type" : "radio"
+},
+{
+	"Query" : "I know  what type of financing to use for different assets in different situations",
+	"type" : "radio"
+},
+{
+	"Query" : "Managing the insurable risks ",
+	"type" : "radio"
+},
+{
+	"Query" : "Understanding of  the margin structure of businesses I have worked at",
+	"type" : "radio"
+},
+{
+	"Query" : "Served on  a corporate risk committee ",
+	"type" : "boolChoice"
+},
+{
+	"Query" : "I have prepared a risk charter ",
+	"type" : "boolChoice"
+},
+{
+	"Query" : "I have a good concept of risk management as it pertains to operating a business",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+},
+{
+	"Query" : "TBD",
+	"type" : "radio"
+}]
+
+
+
+
+
+
+
+
+
+
+
+

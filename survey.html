@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>survey</title>
+	<link href="modalView.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="surveyQuestionData.json"></script>
+</head>
+
+<body>
+
+	<button onClick="showModal()">Take Survey</button>
+	
+	<div id="modalView">
+		<div id="content">
+			
+      		<div id="responseChart">
+				<h1>You have great skills!</h1> <!-- Inner HTML can be changed based on percentage -->
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut</p>
+				<div id="piechart"></div>
+				<h1 id="percTotal">87%</h1>
+			</div>
+			
+			<div id="quiz">
+				<h1 id="sectionHeader">Section Here</h1>
+				<h3 id="question">This first page will be populated with information. HTML for that page still needs to be created and javascript will be adjusted!</h3>
+
+				<div id="surveyRadio">
+					<div class="radioBox">
+						<input type="radio" name="aptitude" value="0">
+						<label>None</label>
+					</div>
+					<div class="radioBox">
+						<input type="radio" name="aptitude" value="1">
+						<label>Novice</label>
+					</div>
+					<div class="radioBox">
+						<input type="radio" name="aptitude" value="2">
+						<label>Some<br>Exposure</label>
+					</div>
+					<div class="radioBox">
+						<input type="radio" name="aptitude" value="3">
+						<label>Medium<br>Level</label>
+					</div>
+					<div class="radioBox">
+						<input type="radio" name="aptitude" value="4">
+						<label>High<br>Level</label>
+					</div>
+					<div class="radioBox">
+						<input type="radio" name="aptitude" value="5">
+						<label>Expert<br>Level</label>
+					</div>
+				</div>
+				<button id="prevBtn" disabled>&lt;&lt;Previous</button>
+				<button id="nextBtn">Next&gt;&gt;</button>
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="SurveyAnswerController.js"></script>
+	<script src="AssesmentSurveyApp.js"></script>
+</body>
+</html>
