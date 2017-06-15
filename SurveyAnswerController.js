@@ -1,7 +1,7 @@
 // JavaScript Document
 function surveyAnswers(){
 	this.answer = [];
-	this.index = 0;
+	this.index = -1;
 	this.averageTotal = 0;
 	
 	this.sectionAverages = [
@@ -46,12 +46,20 @@ surveyAnswers.prototype.incrIndex = function(){
 	this.index++;
 };
 
+surveyAnswers.prototype.decIndex = function(){
+	this.index--;
+};
+
 surveyAnswers.prototype.getIndex = function(){
 	return this.index;
 };
 
 surveyAnswers.prototype.getAverageTotal = function(){
 	return this.averageTotal;
+};
+
+surveyAnswers.prototype.getAnswer = function(index){
+	return this.answer[index];
 };
 
 surveyAnswers.prototype.solve = function(){
