@@ -21,16 +21,35 @@
     padding: 30px;
     border: 1px solid #888;
     width: 80%; 
+	font-family: 'Roboto', sans-serif;
+}
+
+#content h2 {
+	color: dimgrey;
 }
 
 #responseChart {
 	display: none;
 }
 
+#surveyBool {
+	display: none;
+}
+
+#percTotal {
+	background-color: #6c301e;
+	color: white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px #fff, 0 0 0 7px #838383;
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	font-size: 50px;
+}
+
 #piechart {
 	width: 500px; 
 	height: 500px; 
-	overflow: hidden;
 }
 
 .radioBox {
@@ -43,4 +62,23 @@
 }
 .radioBox label {
 	display: block;
+}
+
+.modalButton {
+	display: inline-block;
+	margin: 2em;
+	background-color: white;
+	color: #375d4c;
+	border-color: #375d4c;
+	border-radius: 10px;
+	height: 3em;
+	width: 10em;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 1em;
+}
+
+.modalButton:active {
+	background-color: #375d4c;
+	color: white;
 }

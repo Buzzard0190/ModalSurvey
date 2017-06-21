@@ -2,6 +2,7 @@
 function surveyAnswers(){
 	this.answer = [];
 	this.index = -1;
+	this.totalCount = 0;
 	this.averageTotal = 0;
 	
 	this.sectionAverages = [
@@ -34,8 +35,6 @@ function surveyAnswers(){
 		['Teamwork', 0],
 		['Strategic', 0]
 	]
-	
-
 }
 
 surveyAnswers.prototype.addAnswer = function(aptitude){
@@ -54,8 +53,8 @@ surveyAnswers.prototype.getIndex = function(){
 	return this.index;
 };
 
-surveyAnswers.prototype.getAverageTotal = function(){
-	return this.averageTotal;
+surveyAnswers.prototype.getCountTotal = function(){
+	return this.totalCount;
 };
 
 surveyAnswers.prototype.getAnswer = function(index){
@@ -99,7 +98,7 @@ surveyAnswers.prototype.solveAccounting = function() {
 	this.averages[3][1] = (repCount/6);
 	
 	this.sectionAverages[0][1] = ((repCount+recCount+govCount)/18);
-	this.averageTotal += (repCount+recCount+govCount);
+	this.totalCount += (repCount+recCount+govCount);
 };
 
 surveyAnswers.prototype.solveFinance = function() {
@@ -122,7 +121,7 @@ surveyAnswers.prototype.solveFinance = function() {
 	this.averages[6][1] = (investCount/5);
 	
 	this.sectionAverages[1][1] = ((planCount+forecstCount+investCount)/14);
-	this.averageTotal += (planCount+forecstCount+investCount);
+	this.totalCount += (planCount+forecstCount+investCount);
 };
 
 surveyAnswers.prototype.solveTreasure = function() {
@@ -145,7 +144,7 @@ surveyAnswers.prototype.solveTreasure = function() {
 	this.averages[9][1] = (riskCount/5);
 	
 	this.sectionAverages[2][1] = ((cashCount+fundCount+riskCount)/16);
-	this.averageTotal += (cashCount+fundCount+riskCount);
+	this.totalCount += (cashCount+fundCount+riskCount);
 };
 
 surveyAnswers.prototype.solveLeadership = function() {
@@ -168,6 +167,6 @@ surveyAnswers.prototype.solveLeadership = function() {
 	this.averages[12][1] = (stratCount/5);
 	
 	this.sectionAverages[3][1] = ((selfCount+teamCount+stratCount)/15);
-	this.averageTotal += (selfCount+teamCount+stratCount);
+	this.totalCount += (selfCount+teamCount+stratCount);
 };
 
